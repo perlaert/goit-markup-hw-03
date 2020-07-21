@@ -128,3 +128,8 @@ body {
     text-transform: uppercase;
     color: var(--white);
 }
+
+.container {
+    padding-left: 215px;
+    padding-right: 215px;
+}
