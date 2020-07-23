@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.hero {
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.section-title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.btn-main {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background-color: var(--accept-color);
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    color: var(--primary-text-color);
+}
+
+.team-profession {
+    font-size: 16px;
+    line-height: 1.187;
+}
