@@ -1,31 +1,65 @@
+.portfolio {
+    margin-top: 93px;
+    margin-bottom: 94px;
+}
+
 /* Фильтр */
 .btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  text-align: center;
-  color: var(--primary-title-color);
-  background-color: #f5f4fa;
-  border-radius: 4px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    color: var(--primary-title-color);
+    background-color: #f5f4fa;
 }
 
 .btn:hover,
 .btn:focus {
-  background-color: var(--accept-color);
-  color: var(--white-color);
+    background-color: var(--accept-color);
+    color: var(--white-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.portfolio-filter {
+    margin-bottom: 34px;
+}
+
+/* Карточки */
 .projects-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-title-color);
 }
 
 .projects-subtitle {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.875;
-  color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--primary-text-color);
+}
+
+.portfolio-projects {
+    width: 370px;
+    background-color: var(--white-color);
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+}
+
+.portfolio-projects-desc {
+    margin: 20px 24px;
+}
+
+.portfolio-projects h2 {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.portfolio-projects p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
