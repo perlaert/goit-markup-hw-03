@@ -31,14 +31,14 @@
                 <h1 hidden class="visually-hidden">Портфолио</h1>
                 <!-- Фильтр -->
                 <ul class="portfolio-filter list">
-                    <li><button type="button" class="btn">Все</button></li>
-                    <li><button type="button" class="btn">Веб-сайты</button></li>
-                    <li><button type="button" class="btn">Приложения</button></li>
-                    <li><button type="button" class="btn">Дизайн</button></li>
-                    <li><button type="button" class="btn">Маркетинг</button></li>
+                    <li class="item"><button type="button" class="btn">Все</button></li>
+                    <li class="item"><button type="button" class="btn">Веб-сайты</button></li>
+                    <li class="item"><button type="button" class="btn">Приложения</button></li>
+                    <li class="item"><button type="button" class="btn">Дизайн</button></li>
+                    <li class="item"><button type="button" class="btn">Маркетинг</button></li>
                 </ul>
                 <!-- Карточки -->
-                <ul class="list">
+                <ul class="portolio-list list">
                     <li class="portfolio-projects">
                         <a href="">
                             <img src="./images/project1.jpg" alt="Ноутбук" width="370" height="294" />
@@ -135,48 +135,54 @@
 
         <!-- Футер -->
         <footer class="footer">
-            <div class="container">
-                <div>
-                    <a href="./" class="logo logo-footer"> <span>Web </span>Studio</a>
-                    <address class="address">
-                        <ul class="list">
-                            <li class="address-item">г. Киев, пр-т Леси Украинки, 26</li>
-                            <li class="address-contacts">info@devstudio.com</li>
-                            <li class="address-contacts">+38 096 111 11 11</li>
+            <div class="footer-flexbox container">
+                <div class="footer-block-contacts">
+                    <div class="footer-address-contacts">
+                        <a href="./" class="logo logo-footer"> <span>Web </span>Studio</a>
+                        <address class="address">
+                            <ul class="list">
+                                <li class="address-item">г. Киев, пр-т Леси Украинки, 26</li>
+                                <li class="address-contacts">info@devstudio.com</li>
+                                <li class="address-contacts">+38 096 111 11 11</li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="footer-social-contacts">
+                        <p>
+                            <b class="call-to-activity">Присоединяйтесь</b>
+                        </p>
+                        <ul class="social-list list">
+                            <li>
+                                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Инстаграм">
+                                    <img src="./images/instagram.svg" alt="Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" rel="noopener norefferer" aria-label="ссылка на Твиттер">
+                                    <img src="./images/twitter.svg" alt="Twitter" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" rel="noopener norefferer" aria-label="ссылка на Фейсбук">
+                                    <img src="./images/facebook.svg" alt="Facebook" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" rel="noopener norefferer" aria-label="ссылка на Линкэдин">
+                                    <img src="./images/linkedin.svg" alt="LinkedIn" />
+                                </a>
+                            </li>
                         </ul>
-                    </address>
+                    </div>
                 </div>
-                <div>
-                    <p>
-                        <b class="call-to-activity">Присоединяйтесь</b>
-                    </p>
-                    <ul class="list">
-                        <li>
-                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Инстаграм">
-                                <img src="./images/instagram.svg" alt="Instagram" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" rel="noopener norefferer" aria-label="ссылка на Твиттер">
-                                <img src="./images/twitter.svg" alt="Twitter" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" rel="noopener norefferer" aria-label="ссылка на Фейсбук">
-                                <img src="./images/facebook.svg" alt="Facebook" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" rel="noopener norefferer" aria-label="ссылка на Линкэдин">
-                                <img src="./images/linkedin.svg" alt="LinkedIn" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
+                <div class="footer-form">
                     <p>
                         <b class="call-to-activity">Подпишитесь на рассылку</b>
                     </p>
+                    <div class="input-form">
+                        <p class="email-input">E-mail</p>
+                        <button type="button" class="btn-footer">Подписаться</button>
+                    </div>
                 </div>
             </div>
         </footer>
